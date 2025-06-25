@@ -1,0 +1,117 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Judul Halaman */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* Tombol Tambah dan form button */
+a, button {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 14px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+a:hover, button:hover {
+    background-color: #2980b9;
+}
+
+a:visited {
+    color: white;
+}
+
+/* Tabel data */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #eaf2f8;
+}
+
+/* Form input */
+form {
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Container pesan update */
+.update-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    width: fit-content;
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+/* Tombol kembali */
+.btn-kembali {
+    background-color: #3498db;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-kembali:hover {
+    background-color: #2980b9;
+}
